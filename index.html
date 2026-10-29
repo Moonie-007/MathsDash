@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maths Dash</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: fantasy;
+            background: #742b2b;
+            color: #edc9c9;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+            flex-direction: column;
+        }
+
+        #app { width: 340px; padding: 16px; }
+
+        #question { font-size: 44px; font-weight: 700; margin: 24px 0; }
+
+        #answers {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+
+        button {
+            font-size: 24px;
+            padding: 18px 0;
+            border: none;
+            border-radius: 12px;
+            background: #592020;
+            color: #d5c9c9;
+            cursor: pointer;
+            min-height: 60px;
+        }
+
+        button:active { background: #411e1e; }
+
+        #bar {
+            width: 340px;
+            height: 10px;
+            background: #853131;
+            border-radius: 5px;
+            overflow: hidden;
+            margin-top: 8px;
+        }
+
+        #barFill { height: 100%; width: 100%; background: #4ade80; }
+
+        #hud { display: flex; justify-content: space-between; font-size: 18px; }
+    </style>
+</head>
+<body>
+    <div id="app">
+        <div id="hud">
+            <span>Score: <b id="score">0</b></span>
+            <span>Level: <b id="level">1</b></span>
+            <span>Time: <b id="time">60</b></span>
+        </div>
+
+        <div id="bar"><div id="barFill"></div></div>
+        <div id="question">Press Start</div>
+        <div id="answers"></div>
+        <button id="startBtn" style="margin-top: 16px; width: 100%;">Start</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
