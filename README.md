@@ -27,7 +27,10 @@ Math Dash runs directly in a web browser and does not require an internet connec
 
 <img width="1000" height="780" alt="Screenshot 2026-10-29 151329" src="https://github.com/user-attachments/assets/681dbc8f-2716-4591-ab66-7be5d88dae90" />
 
+## Technologies Used
 
+- HTML
+- JavaScript
 
 ## Getting Started
 
