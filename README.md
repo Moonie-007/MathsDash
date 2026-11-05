@@ -1,67 +1,86 @@
 # Math Dash
 
-It is a browser-based arithmetic game that challenges players to solve mathematical questions quickly and accurately, with a 60-second time limit, progressively increasing difficulty, the game makes practising mental maths a competitive challenge.
+Math Dash is a single-player, browser-based arithmetic game designed to improve mental calculation speed and accuracy through timed challenges.
 
-## Features
+## Description
 
-- Automatically generated arithmetic problems.
-- Includes addition, subtraction, multiplication, and division as you advance through levels.
-- Answer each question before its countdown expires.
-- Earn 10 points for correct answers and lose 5 points for incorrect answers.
-- Answer four consecutive questions correctly to advance to the next level.
-- Play on web.
-- Track your score, level, and remaining time as you play.
-- Start a new round whenever a game ends.
+Math Dash is a lightweight arithmetic game developed using HTML, CSS, and JavaScript. The game challenges players to solve mathematical expressions as quickly and accurately as possible within a 60-second time limit.
 
-## How to Play
+Players are presented with mathematical questions and four possible answers to choose from. The difficulty gradually increases as the player progresses through different levels.
 
-1. Open the game in your browser.
-2. Start a new round.
-3. Solve the displayed arithmetic problem.
-4. Select the correct answer from the four available options before time runs out.
-5. Answer four consecutive questions correctly to advance to the next level.
-6. Try to achieve the highest score possible within 60 seconds.
+The game includes the following features:
 
+- **60-second timer:** Players must solve as many questions as possible before time runs out.
+- **Multiple-choice questions:** Each question has four possible answers.
+- **Progressive difficulty:** Questions become more challenging as players advance through levels.
+- **Level-based arithmetic:**
+  - Levels 1–2: Addition and subtraction.
+  - Levels 3–4: Multiplication.
+  - Level 5 onwards: Division.
+- **Non-negative subtraction:** Subtraction questions are designed to avoid negative results.
+- **Score tracking:** Correct answers contribute to the player's score.
 
-## Difficulty Levels
+Math Dash runs directly in a web browser and does not require an internet connection, installation, or external dependencies.
+<img width="724" height="773" alt="Screenshot 2026-10-29 151354" src="https://github.com/user-attachments/assets/4e564ee4-97ab-4681-89a1-fe285f52261f" />
 
-As you progress, the questions become more challenging and the time allowed per question decreases, down to a minimum of three seconds.
+<img width="778" height="776" alt="Screenshot 2026-10-29 151427" src="https://github.com/user-attachments/assets/a30ca374-6dc9-4261-bd51-95b2c19849b9" />
 
-## Scoring System
-
-
-Correct answer --> +10
-Incorrect answer --> -5 
-Minimum score--> 0 
-
-## Technologies Used
-
-- **HTML5** for the game structure and stylling
-- **JavaScript** for generating questions, scoring, and timers
+<img width="1000" height="780" alt="Screenshot 2026-10-29 151329" src="https://github.com/user-attachments/assets/681dbc8f-2716-4591-ab66-7be5d88dae90" />
 
 
 
-## Game Rules
+## Getting Started
 
-- Each round lasts up to 60 seconds.
-- Every question has its own countdown.
-- The round ends when the main timer or question timer reaches zero.
-- The score cannot fall below zero.
-- Starting a new round resets the score, level, and timers.
+### Dependencies
 
-## Project Structure
+The project requires:
 
+- A modern web browser (Google Chrome, Microsoft Edge, Firefox, etc.).
+- A code editor (Visual Studio Code recommended).
+- HTML5 support.
+- CSS3 support.
+- JavaScript support.
 
-Math-Dash/
-├── index.html
-├── script.js
-└── README.md
+No external libraries or frameworks are required.
 
+### Installing
 
-## Purpose
+1. Download or clone the project repository.
+2. Extract the downloaded ZIP file if necessary.
+3. Open the project folder in Visual Studio Code.
+4. Make sure the following files are present:
+   - `index.html`
+   - `script.js`
 
-Math Dash was created to make mental arithmetic practice more engaging through time pressure, instant feedback, and progressive challenges. It encourages players to improve their calculation speed and accuracy.
+5. Keep all project files in their original directory structure.
+
+To clone the repository using Git:
+
+```bash
+git clone https://github.com/Moonie-007/MathsDash.git
+```
+
+### Executing the program
+
+1. Navigate to the project folder.
+2. Open the folder in Visual Studio Code.
+3. Locate `index.html`.
+4. Right-click the file and select **Open with Live Server** if the Live Server extension is installed.
+
+Alternatively, double-click `index.html` to open the game directly in your default web browser.
+
+5. Start playing Math Dash!
+
+## Help
+
+If you encounter problems while running the game, consider the following solutions:
+
+- Make sure you are opening `index.html` in a supported web browser.
+- Ensure that `script.js` is correctly linked and check the browser console for errors.
+- Make sure all project files are present and have not been renamed or moved.
+
+For additional debugging information, open the browser developer console using `F12`.
 
 ## License
 
-This project is open source. Add a license file if you intend to distribute it under a specific open-source license.
+This project is licensed under the [MIT License](LICENSE.md)
